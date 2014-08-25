@@ -1,0 +1,95 @@
+<Doctype html>
+	<html>
+	<head>
+		<script language="javascript">
+		var piedra=1;
+		var papel=2;
+		var tijera=3;
+		var opcionusuario;
+		var opcionmaquina;
+		opcionmaquina=(Math.floor(Math.random() * 3 + 1));
+
+		opcionusuario=prompt("digite su opcion: \n 1 piedra \n 2 papel \n 3 tijera");
+
+		if(opcionusuario==1)
+	{
+		{
+			alert("usted eligio piedra");
+		}
+
+		if(opcionmaquina==1)
+		{
+			alert("la maquina eligio piedra");
+			alert("empate");
+		}
+
+		else if(opcionmaquina==2)
+		{
+			alert("la maquina eligio papel");
+			alert("usted pierde");
+		}
+		
+		else if(opcionmaquina==3)
+		{
+			alert("la maquina eligio tijera");
+			alert("usted gana");
+		}
+	}
+
+		if(opcionusuario==2)
+	{		
+		{
+			alert("usted eligio papel");
+		}
+
+		if(opcionmaquina==1)
+		{
+			alert("la maquina eligio piedra");
+			alert("usted gana");
+		}
+
+		else if(opcionmaquina==2)
+		{
+			alert("la maquina eligio papel");
+			alert("empate");
+		}
+		
+		else if(opcionmaquina==3)
+		{
+			alert("la maquina eligio tijera");
+			alert("usted pierde");
+		}
+	}	
+
+		if(opcionusuario==3)
+	{
+		{
+			alert("usted eligio tijera");
+		}
+
+		if(opcionmaquina==1)
+		{
+			alert("la maquina eligio piedra");
+			alert("usted pierde");
+		}
+
+		else if(opcionmaquina==2)
+		{
+			alert("la maquina eligio papel");
+			alert("usted gana");
+		}
+		
+		else if(opcionmaquina==3)
+		{
+			alert("la maquina eligio tijera");
+			alert("empate");
+		}
+	}	
+
+
+
+
+		</script>
+
+	</head>
+	</html>
